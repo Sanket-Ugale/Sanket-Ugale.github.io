@@ -1114,6 +1114,7 @@ div.achievementsCard{
   padding: 20px;
   width: 350px;
   height: 550px;
+  margin: 5px;
 }
 div.achievementsCard:hover{
   background-color: #f0f0f0;
