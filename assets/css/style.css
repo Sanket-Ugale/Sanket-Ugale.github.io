@@ -1105,3 +1105,17 @@ section {
   }
 }
 
+div.achievementsdesc{
+  padding: 5px;
+  margin-left: 15px;
+}
+div.achievementsCard{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  width: 350px;
+  height: 550px;
+}
+div.achievementsCard:hover{
+  background-color: #f0f0f0;
+  transition: 0.4s;
+}
