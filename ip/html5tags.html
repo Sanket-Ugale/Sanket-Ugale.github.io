@@ -3,30 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic HTML5 Web Page with Bootstrap</title>
-    <!-- Add Bootstrap CSS link -->
+    <title>Sanket Ugale | B-570</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            color: red;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Welcome to My Semantic Web Page</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <marquee><h1>Welcome to My Web Page</h1></marquee>
     </header>
-    <nav class="bg-dark text-white py-2">
-        <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    
     <main class="container my-5">
-        <section id="home" class="mb-4">
+        <section id="home">
             <article>
                 <h2>About Us</h2>
                 <p>We are a company that specializes in creating amazing web experiences using the latest technologies.</p>
             </article>
         </section>
-        <section id="about" class="mb-4">
+        
+        <section id="about">
             <article>
                 <h2>Our Services</h2>
                 <ul>
@@ -37,12 +83,33 @@
                 </ul>
             </article>
         </section>
+        
+        <section id="services">
+            <article>
+                <h2>Our Services</h2>
+                <ol>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>UI/UX Design</li>
+                    <li>SEO</li>
+                </ol>
+            </article>
+        </section>
+        
+        <section id="contact">
+            <article>
+                <h2>Contact Us</h2>
+                <address>
+                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                    <p>Phone: <a href="tel:+123456789">123-456-789</a></p>
+                </address>
+            </article>
+        </section>
     </main>
-    <footer id="contact" class="bg-secondary text-white text-center py-4">
-        <p>&copy; 2023 My Semantic Web Page. All rights reserved.</p>
-    </footer>
     
-    <!-- Add Bootstrap JS and jQuery links (optional) -->
+    <footer>
+        <p>&copy; 2023 Web Page. All rights reserved.</p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
